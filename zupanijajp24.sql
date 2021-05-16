@@ -7,3 +7,9 @@ sifra int not null primary key auto_increment,
 naziv varchar(50),
 zupan int
 );
+
+create table opcina(
+sifra int not null primary key auto_increment,
+zupanija int,
+naziv varchar(50)
+);
