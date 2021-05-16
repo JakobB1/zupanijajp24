@@ -63,3 +63,19 @@ insert into mjesto(opcina,naziv)
 values (1,'Cerje'),(1,'Gajec'),(2,'Trnje'),(2,'Velika Buna'),
        (3,'Bilje'),(3,'Cepin'),(4,'Kusevac'),(4,'Durdanci'),
        (5,'Trstenik'),(5,'Lovret'),(6,'Luksic'),(6,'Gomilica');
+       
+      
+update mjesto set naziv='Buzin'
+where sifra=1;
+
+update mjesto set naziv='Adamovec'
+where sifra=2;
+
+update mjesto set naziv='Gradici'
+where sifra=3;
+
+update mjesto set naziv='Gudci'
+where sifra=4;
+
+update mjesto set naziv='Brijest'
+where sifra=5;      
