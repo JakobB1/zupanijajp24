@@ -42,7 +42,7 @@ values('Zagrebacka zupanija'),('Osjecko baranjska'),('Splitsko dalmatinska');
 select * from opcina;
 
 insert into opcina(zupanija,naziv)
-values (1,'Zagreb'),(1,'Velika Gorica'),(2,'Split'),(2,'Kastela'),(3,'Osijek'),(3,'Dakovo');
+values (1,'Zagreb'),(1,'Velika Gorica'),(2,'Osijek'),(2,'Dakovo'),(3,'Split'),(3,'Kastela');
 
 
 select * from zupan;
