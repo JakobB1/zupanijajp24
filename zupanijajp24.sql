@@ -13,3 +13,9 @@ sifra int not null primary key auto_increment,
 zupanija int,
 naziv varchar(50)
 );
+
+create table mjesto(
+sifra int not null primary key auto_increment,
+opcina int, 
+naziv varchar(50)
+);
