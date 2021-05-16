@@ -25,3 +25,9 @@ sifra int not null primary key auto_increment,
 ime varchar(50),
 prezime varchar(50)
 );
+
+alter table opcina add foreign key (zupanija) references zupanija(sifra);
+
+alter table mjesto add foreign key (opcina) references opcina(sifra);
+
+alter table zupanija add foreign key (zupan) references zupan(sifra);
