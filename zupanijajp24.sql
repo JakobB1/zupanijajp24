@@ -80,3 +80,7 @@ where sifra=4;
 
 update mjesto set naziv='Brijest'
 where sifra=5;
+
+
+delete from mjesto where sifra=1;
+delete from mjesto where sifra=3;
